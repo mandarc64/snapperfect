@@ -1,10 +1,11 @@
 body{
-    background-image: url("../img/design/4.jpg");
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../img/design/4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.2);
+;
 }
 
 h1{
@@ -21,10 +22,8 @@ h1{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.navbar-custom{
-  /* background-color: transparent; */
-  color: white;
-  font-size: 20px;
+.navbar{
+  background-color: rgba(0, 0, 0, 0.486);
 }
 
 .navbar-brand{
@@ -32,8 +31,9 @@ h1{
   color: rgb(231, 192, 118);
 }
 
-.navbar-back{
-  background-color: rgba(0, 0, 0, 0.486);
+.nav-item a{
+  font-size: 22px;
+  color: white;
 }
 
 .navbar-nav{
