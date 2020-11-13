@@ -1,0 +1,85 @@
+body{
+    background-image: url("../img/design/4.jpg");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+    /* font-style: italic; */
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    color: white;
+    font-size: 30px;
+    /* text-decoration: underline; */
+}
+
+.container a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-custom{
+  /* background-color: transparent; */
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 28px;
+  color: rgb(231, 192, 118);
+}
+
+.navbar-back{
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
+.navbar-nav{
+  padding-left: 15rem;
+}
+
+a:hover{
+  color:rgb(204, 196, 196);
+}
+
+
+
+.column{
+    /* border: 1px solid black; */
+    /* align-content: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+   float: left;
+    height: auto;
+    width: 32.63%;
+    padding: 5px;
+}
+
+.row::after {
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+img{
+  padding-left: 2rem;
+  padding-top: 1rem;
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 55px;
+    transition: all 1s;
+}  
+
+img:hover{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1100px) {
+  .column {
+    width: 90%;
+  }
+} 
